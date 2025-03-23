@@ -1,0 +1,57 @@
+body{
+    background: url(https://img.freepik.com/free-vector/landmarks-skyline-paper-style-concept_23-2148432971.jpg?t=st=1742713046~exp=1742716646~hmac=48a5bc88fbd75af283435aca04c120fbfab6ff5a241b318323d448084c1ec7c5&w=1380) no-repeat center/cover;
+    align-items: center;
+}
+header > div{
+    display:flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#logo{
+    height:75px;
+    width: auto;
+}
+.nav{
+    background-color: #222;
+    height:40px;
+
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    text-align: center;
+    
+}
+nav > a{
+    margin-right: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+}
+div.content{
+    display: flex;
+    flex-direction: row;
+}
+div#des{
+    height:400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    margin: 10px
+    
+}
+div#des > img{
+    height: 280px;
+    width: 200px;
+}
+
+
+footer{
+    background-color: #222;
+    color: white;
+
+}
